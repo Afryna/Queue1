@@ -1,0 +1,25 @@
+# TestMyQueue
+public class TestMyQueue {
+    public static void main (String[] args) {
+        MyQueue<String> fruitQ = new MyQueue<>();
+        
+        fruitQ.enqueue("Durian");
+        fruitQ.enqueue("Blueberry");
+        fruitQ.enqueue("Apple");
+        fruitQ.enqueue("Orange");
+        fruitQ.enqueue)"Grape");
+        frutQ.enqueue("Cherry");
+        
+        System.out.println (fruitQ);
+        
+        System.out.println("The size is: " + fruitQ.getSize());
+        
+        fruitQ.dequeue();
+        System.out.println("Queue: " + fruitQ);
+        
+        System.out.println("Queue contains cherry?" + fruitQ.contains("cherry");
+        System.out.println)"Queue contains durian?" + fruitQ.contains("durian");
+        
+        System.out.println("Queue is empty? " + fruitQ.isEmpty("true"));
+    }
+ }
